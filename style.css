@@ -1,0 +1,281 @@
+body{
+    margin: auto;
+    max-width: 712px;
+    min-width: 320px;
+}
+/* navgation  bar */
+nav{
+    justify-content: space-between;
+    background-color: black;
+    display: flex;
+    font-size: small;
+    align-items: center;
+    color: white;
+  }
+div.links.ul,li,a{ 
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 4px;
+  } 
+ a:hover
+  {
+   color: yellow; 
+  }
+  /*  banner */
+  div.tittle,p
+  {
+    font-family:"Eras Light ITC";
+    font-size:xx-large;
+    text-align: center;
+    font-weight:lighter;
+  }
+  @media (max-width: 500px) {
+    div.tittle,p{
+      background-color: rgb(63, 22, 212);
+      text-align: left;
+    }
+  }
+  /*tittle*/
+div.links2{
+    background-color:#fff;
+    text-align:left;
+    font-size: small;
+    
+  }
+@media (max-width: 500px) {
+    div.links2{
+      background-color: rgb(212, 208, 219);
+      justify-content: left;
+    }
+  }
+div.links2 a{
+    color: black;
+    text-decoration: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  /*second menu*/
+  div.middle 
+  {
+      color: white;
+      background-color: black;
+      font-family: "Courier New";  
+     text-align: center;
+  }
+  div.middle p
+  {
+     margin-top: auto;
+     color: white;
+     background-color: black;
+     font-family: Calibri ;
+     margin-left: 10px;
+     font-size: 1em;
+  }
+  div.middle h2
+  {
+      font-family: "Viner Hand ITC";
+      text-align: center;   
+  }
+  /*iframe*/
+iframe
+{
+  width: 420px ;
+  height: 315px ;
+}
+@media (max-width: 417px) {
+  iframe{
+    width: 220px ;
+    height: 215px ;
+  }
+}
+/* middle*/
+.SS
+  {
+    margin-left: -27px;
+   width: 743px;
+   height: 600px;
+  }
+  @media (max-width: 650px) {
+    .SS{
+      width: 520px ;
+      height: 315px ;
+      align-items: center;
+    }
+  }
+  @media (max-width: 450px) {
+    .SS{
+      width: 400px ;
+      height: 215px ;
+      align-items: center;
+    }
+  }
+  @media (max-width: 350px) {
+    .SS{
+      width: 250px ;
+      height: 215px ;
+    }
+  }
+  .imagewrap
+   {
+     
+    display:inline-block;
+    position: relative;
+    cursor: pointer;
+  
+  }
+  /*social media */
+  div.last
+  {
+      margin-top: auto;
+      color: white;
+      background-color: black;
+      font-family: "Viner Hand ITC";
+      
+  }
+  @media (max-width: 650px) {
+    .last img{
+     margin-top: auto;
+      width: 70px ;
+      height: 70px ;
+      align-items: center;
+    }
+  }
+ 
+  }
+  div.last h3
+  {
+   justify-content: center;
+   font-size: x-large;
+  }
+/*ending*/
+  @media (max-width: 650px) {
+    .end img{
+      width: 450px ;
+      height: 80px ;
+      align-items: center;
+    }
+  }
+  @media (max-width: 450px) {
+    .end img{
+      width: 350px ;
+      height: 65px ;
+      align-items: center;
+    }
+  }
+  @media (max-width: 350px) {
+    .end img{
+      width: 250px ;
+      height: 50px ;
+    }
+  }
+/* end copy */
+div.copy p{
+  font-size: small;
+}
+/* buttoons */
+  .button1
+   {
+     position:absolute;right:60%;top:180%;
+     cursor: pointer;
+    border: 1px solid #e2e9ee;
+    color: transparent;
+    height: 50px;
+    width: 100px;
+    color: #f4f7fa;
+    background-color: transparent;
+    }
+    .button1:hover
+    {
+      position:absolute;
+      top: 180%;
+      right: 57%;
+      border-radius: 15px;
+      font-size:15px;
+      border:2px solid #222;
+      color:white;
+      background:rgb(15, 15, 15); 
+    
+    }
+    .button2
+   {
+    position:absolute;left:40%;top:20%;
+    cursor: pointer;
+    border: 1px solid #b6c7d3;
+    background-color: transparent;
+    height: 120px;
+    width: 130px;
+    color: #c9dae6;
+    
+    }
+    @media (max-width: 650px) {
+      .button2{
+        position:absolute;left:40%;top:20%;
+        cursor: pointer;
+        border: 1px solid #b6c7d3;
+        background-color: transparent;
+        height: 30px;
+        width: 50px;
+        color: #c9dae6;
+        
+      }
+    }
+     
+.popup .overlay {
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100vw;
+  height:100vh;
+  background:rgba(0,0,0,0.7);
+  z-index:1;
+  display:none;
+}
+ 
+.popup .content {
+  position:absolute;
+ top:170%;
+  left:55%;
+  transform:translate(-50%,-50%) scale(0);
+  background:#ffffff;
+  width:95%;
+  max-width:500px;
+  height:300px;
+  z-index:2;
+  text-align:center;
+  padding:20px;
+  box-sizing:border-box;
+  font-family:"Open Sans",sans-serif;
+}
+ 
+.popup .close-btn {
+  cursor:pointer;
+  position:absolute;
+  right:20px;
+  top:20px;
+  width:30px;
+  height:30px;
+  background:#222;
+  color:#fff;
+  font-size:25px;
+  font-weight:600;
+  line-height:30px;
+  text-align:center;
+  border-radius:50%;
+}
+ /* pop up */
+.popup.active .overlay {
+  display:block;
+}
+ 
+.popup.active .content {
+  transition:all 300ms ease-in-out;
+  transform:translate(-50%,-50%) scale(1);
+}
+   
+
+
+
+
+
+  
