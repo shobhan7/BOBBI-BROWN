@@ -6,11 +6,11 @@ body{
 /* navgation  bar */
 nav{
     justify-content: space-between;
-    background-color: black;
+    background-color: #000000;
     display: flex;
     font-size: small;
     align-items: center;
-    color: white;
+    color: 	#FFFFFF;
   }
 div.links.ul,li,a{ 
     color: white;
@@ -58,8 +58,8 @@ div.links2 a{
   /*second menu*/
   div.middle 
   {
-      color: white;
-      background-color: black;
+      color: #FFFFFF;
+      background-color:#000000;
       font-family: "Courier New";  
      text-align: center;
   }
@@ -67,7 +67,7 @@ div.links2 a{
   {
      margin-top: auto;
      color: white;
-     background-color: black;
+     background-color: #000000;
      font-family: Calibri ;
      margin-left: 10px;
      font-size: 1em;
@@ -193,7 +193,7 @@ div.copy p{
       border-radius: 15px;
       font-size:15px;
       border:2px solid #222;
-      color:white;
+      color: #FFFFFF;
       background:rgb(15, 15, 15); 
     
     }
